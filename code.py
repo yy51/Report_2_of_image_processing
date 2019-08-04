@@ -26,7 +26,7 @@ if __name__ == "__main__":
     image = cv2.imread("test.jpg", cv2.IMREAD_GRAYSCALE) #入力画像をグレースケールに変換しimageにセット
     cv2.imshow("original", image)
     
-    S1 = S2 = S3 = np.zeros(shape=(image.shape)) #配列の初期化
+    S1 = S2 = S3 = S14 = np.zeros(shape=(image.shape)) #配列の初期化
 
     fshift = np.fft.fftshift(np.fft.fft2(image)) #フーリエ変換
     mag = 20*np.log(np.abs(fshift))
