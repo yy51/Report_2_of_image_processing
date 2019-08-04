@@ -6,10 +6,16 @@
 - openCV 4.1.0
 - matplotlib 3.0.3
 ## 参考にしたサイト
-- コード
-    - URL:https://ensekitt.hatenablog.com/entry/2017/12/19/200000 [Python+OpenCVでWebカメラの画像を取り込んで処理して表示する話 - EnsekiTT Blog]
-- 実行方法
-    - URL:https://qiita.com/kngsym2018/items/21b6efe4547a78661951 [Windows環境でPythonスクリプト(.py)の実行方法 - Qiita]
+- フーリエ変換
+    - URL:https://www.slideshare.net/ginrou799/ss-46355460 [フーリエ変換と画像圧縮の仕組み]
+- numpyとopenCVを使った画像のフーリエ変換と逆変換
+    - URL:https://www.hello-python.com/2018/02/16/numpy%E3%81%A8opencv%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%94%BB%E5%83%8F%E3%81%AE%E3%83%95%E3%83%BC%E3%83%AA%E3%82%A8%E5%A4%89%E6%8F%9B%E3%81%A8%E9%80%86%E5%A4%89%E6%8F%9B/ [numpyとopenCVを使った画像のフーリエ変換と逆変換 – Python in the box]
+- 2次元フーリエ変換，フーリエ逆変換(C++)
+    - URL:http://opencv.jp/opencv2-x-samples/2d_dft_idft [2次元フーリエ変換，フーリエ逆変換 | OpenCV.jp]
+- How to Create a Fourier image
+    - URL:https://www.youtube.com/watch?v=gJ2m0dd7QpU [Python 3 Tutorial: Creating a Fourier image - YouTube]
+- マウスイベントの処理
+    - URL:http://whitecat-student.hatenablog.com/entry/2016/11/09/225631 [OpenCVで表示した画像にマウスクリックした場所を取得する方法 (Python) - 白猫学生のブログ]
 - 動画のクロッピング
     - URL:http://sugoiuwasa.jp/%E5%8B%95%E7%94%BB%E3%81%AE%E5%BF%85%E8%A6%81%E9%83%A8%E5%88%86%E3%81%AE%E3%81%BF%E3%82%AF%E3%83%AD%E3%83%83%E3%83%97%EF%BC%88%E5%88%87%E3%82%8A%E6%8A%9C%E3%81%8D%E3%80%81%E3%83%88%E3%83%AA%E3%83%9F/ [動画の必要部分のみクロップ（切り抜き、トリミング）するフリーソフト！]
 - mp4からgifへの変換
