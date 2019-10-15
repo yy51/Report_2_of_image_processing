@@ -1,3 +1,6 @@
+##概要
+- OpenCVで画像を取得し，フーリエ変換・逆変換をリアルタイムに行う．
+- マウスで周波数を指定（周波数フィルタリング）すると，その範囲の逆変換を行う．
 ## 使い方
 - 実行すると5つのウィンドウが表示される．「click」ウィンドウの任意の場所Aを左クリックすると，Aを頂点とする一辺20ピクセルの領域が白くなり，その範囲の逆変換を行い，「ifft_single」ウィンドウに表示する．一連の処理はクリックするごとに行われ，「click」ウィンドウの白い部分は増えてゆく．毎回の逆変換の累積画像を，「ifft」ウィンドウに表示する．右クリックするとすべてのウィンドウが閉じ，実行が終了する．
 ## 実行の仕方
@@ -23,6 +26,6 @@
     - URL:https://convertio.co/ja/mp4-gif/MP4 [ GIF 変換。オンライン フリー — Convertio]
 - Githubへのgifアニメーションの貼り付け
     - URL:http://uchimanajet7.hatenablog.com/entry/2017/08/14/083001[GitHub のREADME にgif 画像を表示する1番簡単な方法 #github #gif - uchimanajet7のメモ]
-    
+
 ## 実行の様子(gifアニメーション)
 ![Video_19-08-05](https://user-images.githubusercontent.com/52147503/62428920-a70ecb80-b742-11e9-8544-0c64c4e907fe.gif)
